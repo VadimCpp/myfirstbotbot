@@ -20,7 +20,8 @@ class MyFirstBotApp {
         this._botsBasedOnThisTemplate = [
             '@gdgcensorbot',
             '@horoshoposidelibot',
-            '@fxswap_bot'
+            '@fxswap_bot',
+            '@gdgdevbot'
         ];
     }
 
