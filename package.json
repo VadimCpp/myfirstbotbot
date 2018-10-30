@@ -1,7 +1,7 @@
 {
-  "name": "fxswap-bot",
+  "name": "myfirstbot",
   "version": "1.0.0",
-  "description": "FX Swap",
+  "description": "My First Bot",
   "main": "index.js",
   "scripts": {
     "dev": "export $(cat .env | xargs) && node index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/vadimcpp/fxswap_bot"
+    "url": "git+https://github.com/VadimCpp/myfirstbotbot"
   },
   "author": "Vadim Cpp",
-  "license": "proprietary",
+  "license": "MIT",
   "bugs": {
-    "url": "https://bitbucket.org/vadimcpp/fxswap_bot"
+    "url": "https://github.com/VadimCpp/myfirstbotbot"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
