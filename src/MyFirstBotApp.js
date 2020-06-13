@@ -19,9 +19,9 @@ class MyFirstBotApp {
          */
         this._botsBasedOnThisTemplate = [
             '@gdgcensorbot',
-            '@horoshoposidelibot',
-            '@fxswap_bot',
-            '@gdgdevbot'
+            '@events4friendsbot',
+            '@gdgdevbot',
+            '@horoshoposidelibot'
         ];
     }
 
@@ -35,7 +35,7 @@ class MyFirstBotApp {
     handleMessage(msg, bot) {
 
         //
-        // TODO: view logs on your server
+        // NOTE! view logs on your server
         //
         console.log('');
         console.log(JSON.stringify(msg));
@@ -46,7 +46,7 @@ class MyFirstBotApp {
         let messageText =
             'Hello, ' + this._getName(msg) + "\n\n" +
             'This is the starter template for other bots built with <b>node-telegram-bot-api</b>. ' +
-            'Visit my website ' + this._myWebsite + ' to see bots built on this template.\n\n' +
+            'Visit my website ' + this._myWebsite + ' to order new bot.\n\n' +
             'Bots cooked:\n';
 
         for (let i = 0; i < this._botsBasedOnThisTemplate.length; i++)
