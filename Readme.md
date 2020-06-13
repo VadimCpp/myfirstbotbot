@@ -7,4 +7,4 @@ This is the starter template for other bots built with [node-telegram-bot-api](h
 ## Инструкция
 
 Инструкция доступна по ссылке:
-[webdev2018](https://webdev2018.blogspot.com/2018/09/hello-world-bot.html)
+[frontend-basics](https://frontend-basics.blogspot.com/2018/09/getting-started-telegram-bot-js.html)
