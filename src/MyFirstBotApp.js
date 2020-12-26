@@ -8,20 +8,14 @@ class MyFirstBotApp {
         console.log('[MyFirstBotApp]: Create Application...');
 
         /**
-         * @type {string}
-         * @private
-         */
-        this._myWebsite = 'vadimcpp.ru';
-
-        /**
          * @type {Array}
          * @private
          */
         this._botsBasedOnThisTemplate = [
             '@gdgcensorbot',
             '@events4friendsbot',
+            '@annagrabbot',
             '@gdgdevbot',
-            '@horoshoposidelibot'
         ];
     }
 
@@ -44,15 +38,14 @@ class MyFirstBotApp {
          * @type {string}
          */
         let messageText =
-            'Hello, ' + this._getName(msg) + "\n\n" +
-            'This is the starter template for other bots built with <b>node-telegram-bot-api</b>. ' +
-            'Visit my website ' + this._myWebsite + ' to order new bot.\n\n' +
-            'Bots cooked:\n';
+            'Привет, ' + this._getName(msg) + "\n\n" +
+            'Это стартовый шаблон для разработки ботов на javascript с использованием <b>node-telegram-bot-api</b>.\n\n' +
+            'Примеры ботов:\n';
 
         for (let i = 0; i < this._botsBasedOnThisTemplate.length; i++)
             messageText += this._botsBasedOnThisTemplate[i] + ';\n';
 
-        messageText += '\nEnjoy cooking with <a href="https://github.com/VadimCpp/myfirstbotbot">this template</a>!';
+        messageText += '\nНачните создание своего бота с изучения исходников на <a href="https://github.com/VadimCpp/myfirstbotbot">github</a>!';
 
         bot.sendMessage(msg.chat.id, messageText, {                
             parse_mode: "HTML",
