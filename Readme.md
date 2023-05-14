@@ -1,8 +1,8 @@
-# myfirstbotbot - Ваш первый телеграм бот на javascript
+# myfirstbotbot
 
-> Telegram бот: [https://t.me/myfirstbotbot](https://t.me/myfirstbotbot)
+> First telegarm bot with javascript
 
-Это стартовый шаблон для разработки ботов на javascript с использованием [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
+This is the boilerplate project for creating telegram bots with javascript. It uses [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
 
 ## Инструкция
 
